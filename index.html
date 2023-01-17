@@ -93,11 +93,11 @@
         <tr>
           <td style="padding: 15px 20px 0">
             <p style="line-height: 1.5; font-weight: bold">
-              We got your order. We're on it.
+              Thank you for your order. We're on it.
             </p>
             <p style="font-size: 14px; line-height: 1.25">
               This email is to confirm your order on 01/01/2023. Your order
-              number is 123456
+              number is <b>123456</b>.
             </p>
             <p style="font-size: 14px; line-height: 1.25">
               Please allow 2-4 business days to process your order. You'll
@@ -140,19 +140,31 @@
                           <tr>
                             <td style="padding: 0">
                               <p style="line-height: 1; font-weight: bold">
-                                Billing Address:
+                                Shipping Address:
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
-                                John Smith
+                                Jane Brown
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
-                                123 John Street
+                                416 Jane Street
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
-                                Toronto, ON A1A 2B2
+                                Toronto, ON B1B 2A2
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
                                 Canada
+                              </p>
+                              <p
+                                style="
+                                  margin-top: 28px;
+                                  line-height: 1;
+                                  font-weight: bold;
+                                "
+                              >
+                                Shipping Method:
+                              </p>
+                              <p style="margin-bottom: 0; font-size: 14px">
+                                Canada Post - Standard
                               </p>
                             </td>
                           </tr>
@@ -185,19 +197,35 @@
                           <tr>
                             <td style="padding: 0">
                               <p style="line-height: 1; font-weight: bold">
-                                Shipping Address:
+                                Billing Address:
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
-                                Jane Brown
+                                John Smith
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
-                                416 Jane Street
+                                123 John Street
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
-                                Toronto, ON B1B 2A2
+                                Toronto, ON A1A 2B2
                               </p>
                               <p style="margin-bottom: 0; font-size: 14px">
                                 Canada
+                              </p>
+                              <p
+                                style="
+                                  margin-top: 28px;
+                                  line-height: 1;
+                                  font-weight: bold;
+                                "
+                              >
+                                Payment Method:
+                              </p>
+                              <p style="margin-bottom: 0; font-size: 14px">
+                                <img
+                                  src="https://cdn.shopify.com/shopifycloud/shopify/assets/payment_icons/american_express-2264c9b8b57b23b0b0831827e90cd7bcda2836adc42a912ebedf545dead35b20.svg"
+                                  alt="amex"
+                                />
+                                ending with 1234
                               </p>
                             </td>
                           </tr>
@@ -216,12 +244,13 @@
           <td style="padding: 0 20px 5px">
             <hr class="footer-break" style="margin: 5px 0 20px 0" />
             <p style="font-weight: bold; margin: 0">Order Details:</p>
+            <p style="font-size: 14px; margin: 0">Order Number: 123456</p>
           </td>
         </tr>
 
         <tr>
           <td>
-            <div style="display: flex; flex-wrap: wrap">
+            <div style="display: flex">
               <div
                 style="
                   padding: 20px 0 20px 20px;
@@ -249,16 +278,18 @@
                   display: flex;
                   justify-content: space-between;
                   width: 75%;
-                  min-width: 400px;
                   padding-left: 20px;
+                  min-width: 200px;
                 "
               >
                 <div
                   style="
                     padding-top: 20px;
+                    padding-left: 10px;
                     display: inline-block;
                     vertical-align: top;
                     text-align: left;
+                    max-width: 300px;
                   "
                 >
                   <p style="margin: 0">Acrylic Case for Earring and Necklace</p>
@@ -284,7 +315,7 @@
 
         <tr>
           <td>
-            <div style="display: flex; flex-wrap: wrap">
+            <div style="display: flex">
               <div
                 style="
                   padding: 20px 0 20px 20px;
@@ -312,16 +343,17 @@
                   display: flex;
                   justify-content: space-between;
                   width: 75%;
-                  min-width: 400px;
                   padding-left: 20px;
                 "
               >
                 <div
                   style="
                     padding-top: 20px;
+                    padding-left: 10px;
                     display: inline-block;
                     vertical-align: top;
                     text-align: left;
+                    max-width: 300px;
                   "
                 >
                   <p style="margin: 0">
@@ -349,7 +381,7 @@
 
         <tr>
           <td>
-            <div style="display: flex; flex-wrap: wrap">
+            <div style="display: flex">
               <div
                 style="
                   padding: 20px 0 20px 20px;
@@ -377,16 +409,17 @@
                   display: flex;
                   justify-content: space-between;
                   width: 75%;
-                  min-width: 400px;
                   padding-left: 20px;
                 "
               >
                 <div
                   style="
                     padding-top: 20px;
+                    padding-left: 10px;
                     display: inline-block;
                     vertical-align: top;
                     text-align: left;
+                    max-width: 300px;
                   "
                 >
                   <p style="margin: 0">
@@ -420,14 +453,14 @@
               padding-bottom: 25px;
               font-size: 15px;
               margin: 0;
-              line-height: 0.2rem;
+              line-height: 0.5rem;
             "
           >
             <p><b>Subtotal: </b>$438.23</p>
             <p><b>Shipping: </b>$0.00</p>
             <p><b>Tax: </b>$56.97</p>
             <hr style="margin-left: 20px" />
-            <p style><b>Total: </b>$495.20</p>
+            <p style="font-size: 17px"><b>Total: </b>$495.20</p>
           </td>
         </tr>
 
