@@ -13,7 +13,6 @@ Website link: https://paksin.github.io/muji-email-confirmation/
 ## How it looks
 
 ![demo-image-1](./asset/demo-image-1.png)
-![demo-image-2](./asset/demo-image-2.png)
 
 ## License
 
